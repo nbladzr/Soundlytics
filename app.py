@@ -1,8 +1,8 @@
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import os
 
 # =========================
 # DEBUG PATH DATASET
@@ -17,11 +17,8 @@ df = pd.read_csv(DATA_PATH)
 # =========================
 # Load model & scaler
 # =========================
-with open("ann_model.pkl", "rb") as f:
-    model = pickle.load(f)
-
-with open("scaler.pkl", "rb") as f:
-    scaler = pickle.load(f)
+model = pickle.load(open("ann_model.pkl", "rb"))
+scaler = pickle.load(open("scaler.pkl", "rb"))
 
 # =========================
 # Load dataset (AMAN)
