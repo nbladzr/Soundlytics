@@ -5,6 +5,16 @@ import pickle
 import os
 
 # =========================
+# DEBUG PATH DATASET
+# =========================
+DATA_PATH = os.path.join("dataset", "spotify_dataset.csv")
+
+st.write("📂 Current directory:", os.listdir())
+st.write("📂 Dataset folder:", os.listdir("dataset"))
+
+df = pd.read_csv(DATA_PATH)
+
+# =========================
 # Load model & scaler
 # =========================
 with open("ann_model.pkl", "rb") as f:
