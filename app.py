@@ -8,7 +8,7 @@ import pickle
 # KONFIGURASI HALAMAN
 # =========================
 st.set_page_config(
-    page_title="TuneScope",
+    page_title="Soundlytics",
     page_icon="🎧",
     layout="centered"
 )
