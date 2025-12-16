@@ -37,7 +37,7 @@ scaler = pickle.load(open("scaler.pkl", "rb"))
 # =========================
 # UI
 # =========================
-st.title("🎧 TuneScope")
+st.title("🎧 Soundlytics")
 st.caption("Prediksi Popularitas Lagu Spotify menggunakan Artificial Neural Network (ANN)")
 
 st.markdown("---")
