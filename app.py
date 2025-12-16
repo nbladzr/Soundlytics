@@ -27,7 +27,7 @@ df = pd.read_csv(DATA_PATH)
 # =========================
 # UI
 # =========================
-st.set_page_config(page_title="TuneScope", page_icon="🎧")
+st.set_page_config(page_title="Soundlytics", page_icon="🎧")
 
 st.title("🎧 TuneScope")
 st.caption("Prediksi Popularitas Lagu Spotify menggunakan Artificial Neural Network (ANN)")
